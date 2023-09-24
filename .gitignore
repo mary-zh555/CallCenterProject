@@ -1,7 +1,5 @@
 .env
 
-/img
 img/
 
 sql_query.sql
-/sql_query.sql

@@ -1,13 +1,18 @@
 # CALL CENTER PROJECT
 
 ### Stack 
-PostgreSQL
-SQL
-DATA CLEANING
-EDA
-Tableau
+- PostgreSQL
+- SQL
+- DATA CLEANING
+- EDA
+- Tableau
 
 ## Process
+
+> Note: If you want to repeat the process 
+>    - Create your own database and import csv file from "raw_data" folder.
+>    - To write your SQL commands in Jupyter follow instruction on the [article](https://medium.com/analytics-vidhya/postgresql-integration-with-jupyter-notebook-deb97579a38d)
+>    - In the .env.example file enter your DATABASE_URL (example, postgresql://postgres:password123@localhost/dvdrental)
 
 1. Importing csv data to database
 
@@ -30,7 +35,7 @@ Tableau
 
     -- import csv file into table
     COPY Calls
-    FROM 'E:\DataAnalytics\PROJECTS\PROJECT\CallCenterProject\call-center.csv'
+    FROM 'E:\...\call-center.csv' -- Write here your path to the file
     DELIMITER ',' 
     CSV HEADER;
 
@@ -69,7 +74,7 @@ Tableau
 
 3. EDA 
 
-    Source: https://medium.com/analytics-vidhya/postgresql-integration-with-jupyter-notebook-deb97579a38d
+    
     
     Go to `eda.ipynb`
 

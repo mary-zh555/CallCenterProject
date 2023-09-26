@@ -69,5 +69,8 @@ Tableau
 
 3. EDA 
 
+    Source: https://medium.com/analytics-vidhya/postgresql-integration-with-jupyter-notebook-deb97579a38d
+    
+    Go to `eda.ipynb`
 
 
